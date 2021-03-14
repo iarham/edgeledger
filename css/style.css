@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#fff;
+    font-family: open;
+    color:#ddd;
+    line-height: 1.6;
+
+}
+
+.hero{
+    background: url("../images/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+    position:relative;
+}
+.navbar{
+    display:flex;
+    background: #333 ;
+    opacity: 0.8;
+    height:60px;
+    align-items: center;
+    justify-content:space-between ;
+    width:100%;
+    position:fixed;
+    
+}
+
+.navbar nav ul{
+    list-style:none;
+    
+   
+    
+}
+
+nav{
+    margin-left: 20px;;
+}
+
+.navbar nav ul li{
+    display: inline-block;
+    padding:20px 30px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.navbar nav ul li a:hover{
+    border:none;
+    border-bottom: 2px solid #25d367;
+    
+    
+}
+
+.hero .content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    height: 100%;
+   
+}
+
+.hero .content a{
+
+    border: 1px solid #25d367;
+    padding:5px 10px ;
+    margin-top:20px;
+
+}
+
+.navbar .content h1{
+    font-size: 55px;
+}
+
+.content p{
+    color:#fff;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;;
+    background: rgba(0,0,0,0.6);
+}
+
+.hero *{
+    z-index: 10;
+}
+
+.our-service h1{
+    color:#333;
+    text-align: center;
+    margin:10px;
+    
+}
+
+
+.our-service p{
+    color:#333;
+}
+
+.flex-container{
+    display:flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.flex-container .row{
+
+    width:100%;
+}
+
+.our-service{
+    padding:40px 40px 100px 40px;
+}
+
+.row i{
+    color:#25d367;
+    font-size:40px;
+}
+
+.our-solution .box, img{
+    width:100%;
+    height: 400px;
+    
+}
+
+.our-solution .box h1,h4,p{
+   
+    color:#fff;
+    padding: 10px;
+}
+
+.our-solution-content{
+    margin:100px;
+}
+
+.box a{
+    display: inline-block;
+    border: 2px solid #d1d1d1;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+
+.flex-container .row img{
+    height: 100%;
+    border: 3px solid #fff;
+}
+
+.flex-container .row img:hover{
+    opacity:0.6;
+}
+
+.our-work h1,h4,p{
+    text-align: center;
+    color:#333;
+  
+    
+}
+
+.our-work-content{
+    margin:30px;
+    font-size: 1.5rem;
+}
+
+.team img{
+    border-radius: 50%;
+}
+
+.team h3{
+    color: #333;
+}
+
+form{
+    margin:50px;
+}
+
+.form-control input{
+    border:none;
+    width:90%;
+    padding:10px;
+    margin:10px;
+}
+
+form .form-control input:focus{
+    border: none;
+   
+}
+
+button{
+    width:90%;
+    padding:10px;
+    margin-top:15px;
+    border:none;
+    color:#fff;
+}
+
+footer{
+    height:300px;
+    background:#333;
+    color:#fff;
+}
+
+
+
+
+
+
+

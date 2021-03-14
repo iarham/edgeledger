@@ -1,0 +1,16 @@
+.bg-primary{
+    color: #25d367;
+}
+
+.bg-background{
+    background: #25d367;
+}
+
+.bg-background-secondary{
+
+    background: rgb(72, 99, 255);
+}
+
+.bg-background-tertiary{
+    background:#f1f1f1;
+}
